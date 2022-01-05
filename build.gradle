@@ -9,6 +9,7 @@ repositories {
 
 idea {
     module {
+        sourceDirs += [file('src')]
         scopes.COMPILE.plus += [configurations.annotationProcessor]
     }
 }
